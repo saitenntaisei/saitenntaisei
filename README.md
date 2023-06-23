@@ -31,3 +31,12 @@
 ![trophy](https://github-profile-trophy.vercel.app/?username=saitenntaisei&theme=onedark)
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=saitenntaisei&theme=dracula)
+
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=saitenntaisei&theme=dracula)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=saitenntaisei&theme=dracula)
+
+
+
+
+

@@ -14,7 +14,7 @@
   <a href="https://stackoverflow.com/users/5720201/saitenntaisei">
     <img height="20" src="https://img.shields.io/stackexchange/stackoverflow/r/5720201?label=StackOverflow&logo=stack-overflow&style=flat" />
   </a>
-  <a href="http://qiita.com/saitenntaisei">
+  <a href="http://qiita.com/saitenn">
     <img height="20" src="https://qiita-badge.apiapi.app/s/saitenntaisei/posts.svg" />
   </a>
   <a href="https://qiita.com/saitenn">

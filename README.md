@@ -17,7 +17,7 @@
   <a href="http://qiita.com/saitenntaisei">
     <img height="20" src="https://qiita-badge.apiapi.app/s/saitenntaisei/posts.svg" />
   </a>
-  <//qiita.com/saitenntaisei">
+  <a href="https://qiita.com/saitenn">
     <img height="20" src="https://qiita-badge.apiapi.app/s/saitenntaisei/contributions.svg" />
   </a>
 </p>

@@ -24,6 +24,6 @@
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=saitenntaisei&show_icons=true&theme=radical)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=saitenntaisei)]
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=saitenntaisei)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=saitenntaisei&theme=onedark)]

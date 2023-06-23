@@ -15,9 +15,9 @@
     <img height="20" src="https://img.shields.io/stackexchange/stackoverflow/r/5720201?label=StackOverflow&logo=stack-overflow&style=flat" />
   </a>
   <a href="http://qiita.com/saitenn">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/saitenntaisei/posts.svg" />
+    <img height="20" src="https://qiita-badge.apiapi.app/s/saitenn/posts.svg" />
   </a>
   <a href="https://qiita.com/saitenn">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/saitenntaisei/contributions.svg" />
+    <img height="20" src="https://qiita-badge.apiapi.app/s/saitenn/contributions.svg" />
   </a>
 </p>

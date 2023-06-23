@@ -21,3 +21,4 @@
     <img height="20" src="https://qiita-badge.apiapi.app/s/saitenn/contributions.svg" />
   </a>
 </p>
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=saitenntaisei&show_icons=true&theme=radical)(https://github.com/saitenntaisei/github-readme-stats)

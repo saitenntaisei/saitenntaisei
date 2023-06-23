@@ -1,0 +1,50 @@
+name: Metrics.png
+
+concurrency:
+  group: metrics-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  workflow_dispatch:
+
+jobs:
+  github-metrics-png:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "metrics 1"
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: none
+          config_output: png
+          filename: metrics-1.png
+          config_presets: https://raw.githubusercontent.com/saitenntaisei/saitenntaisei/main/metrics-presets/preset-1.yml
+      - name: "metrics 2"
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: none
+          config_output: png
+          filename: metrics-2.png
+          config_presets: https://raw.githubusercontent.com/saitenntaisei/saitenntaisei/main/metrics-presets/preset-2.yml
+      - name: "move outputs"
+        run: |
+          sudo mv /metrics_renders/*.png ./
+      - name: "deploy 1"
+        if: ${{ success() }}
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          gist_id: ${{ secrets.GIST }}
+          file_path: metrics-1.png
+          file_type: binary
+      - name: "deploy 2"
+        if: ${{ success() }}
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          gist_id: ${{ secrets.GIST }}
+          file_path: metrics-2.png
+          file_type: binary

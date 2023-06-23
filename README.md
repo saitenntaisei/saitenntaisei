@@ -2,8 +2,8 @@
   <a href="https://github.com/saitenntaisei/saitenntaisei/">
     <img src="https://komarev.com/ghpvc/?username=saitenntaisei" alt="saitenntaisei" />
   </a>
-  <a href="http://twitter.com/saitenntaisei">
-    <img height="20" src="https://img.shields.io/twitter/follow/saitenntaisei?label=Twitter&logo=twitter&style=flat" />
+  <a href="http://twitter.com/sort_reverse">
+    <img height="20" src="https://img.shields.io/twitter/follow/sort_reverse?label=Twitter&logo=twitter&style=flat" />
   </a>
   <a href="https://github.com/saitenntaisei">
     <img height="20" src="https://img.shields.io/github/followers/saitenntaisei?label=follow&logo=github&style=flat" />

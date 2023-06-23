@@ -28,4 +28,6 @@
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=saitenntaisei&layout=compact&langs_count=8&card_width=320&theme=radical" />
 </a>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=saitenntaisei&theme=onedark)]
+![trophy](https://github-profile-trophy.vercel.app/?username=saitenntaisei&theme=onedark)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=saitenntaisei&theme=dracula)

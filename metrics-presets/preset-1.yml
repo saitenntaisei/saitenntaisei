@@ -9,4 +9,4 @@ with:
   config_order: base.header, isocalendar
   # https://github.com/lowlighter/metrics/blob/master/source/plugins/isocalendar/README.md
   plugin_isocalendar: yes
-  plugin_isocalendar_duration: full-year
+  plugin_isocalendar_duration: half-year

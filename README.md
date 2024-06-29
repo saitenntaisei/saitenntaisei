@@ -32,8 +32,12 @@
 <!-- ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=saitenntaisei&theme=dracula)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=saitenntaisei&theme=dracula) -->
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=saitenntaisei&theme=dracula)
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=saitenntaisei&theme=dracula&utcOffset=9)
+![](./profile-summary-card-output/dracula/0-profile-details.svg)
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="./profile-summary-card-output/dracula/4-productive-time.svg" alt="Productive Time">
+  <img src="./profile-summary-card-output/dracula/2-most-commit-language.svg" alt="Most Commit Language">
+</div>
 
 ![metrics-2](./metrics-2.svg)
 

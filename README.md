@@ -15,9 +15,6 @@
   <a href="http://qiita.com/saitenn">
     <img height="20" src="https://qiita-badge.apiapi.app/s/saitenn/posts.svg" />
   </a>
-  <a href="https://qiita.com/saitenn">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/saitenn/contributions.svg" />
-  </a>
 </p>
 
 ![metrics-1](./metrics-1.svg)

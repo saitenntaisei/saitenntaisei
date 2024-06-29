@@ -3,7 +3,7 @@
     <img src="https://komarev.com/ghpvc/?username=saitenntaisei" alt="saitenntaisei" />
   </a>
   <a href="http://twitter.com/sort_reverse">
-    <img height="20" src="https://img.shields.io/twitter/follow/sort_reverse?label=Twitter&logo=twitter&style=flat" />
+    <img height="20" src="https://img.shields.io/twitter/follow/sort_reverse?label=Twitter&logo=X&style=social" />
   </a>
   <a href="https://github.com/saitenntaisei">
     <img height="20" src="https://img.shields.io/github/followers/saitenntaisei?label=follow&logo=github&style=flat" />

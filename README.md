@@ -22,13 +22,12 @@
 
 ![metrics-1](https://raw.githubusercontent.com/gist/saitenntaisei/d8ed9bd1aa4db916a52f79c465a39af8/raw/7eb8d29cd7dd7a3570cd936589c07a5e5fd07283/metrics-1.svg)
 
+
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats-tau-umber-57.vercel.app
-/api?username=saitenntaisei&show_icons=true&theme=radical&rank_icon=percentile" />
+  <img height=200 align="center" src="https://github-readme-stats-tau-umber-57.vercel.app/api?username=saitenntaisei&show_icons=true&theme=radical&rank_icon=percentil" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats-tau-umber-57.vercel.app
-/api/top-langs?username=saitenntaisei&layout=compact&langs_count=8&card_width=320&theme=radical" />
+  <img height=200 align="center" src="https://github-readme-stats-tau-umber-57.vercel.app/api/top-langs?username=saitenntaisei&layout=compact&langs_count=8&card_width=320&theme=radical" />
 </a>
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=saitenntaisei&theme=dracula)
@@ -37,6 +36,9 @@
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=saitenntaisei&theme=dracula)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=saitenntaisei&theme=dracula&utcOffset=9)
 
+
+
 ![metrics-2](https://raw.githubusercontent.com/gist/saitenntaisei/d8ed9bd1aa4db916a52f79c465a39af8/raw/7eb8d29cd7dd7a3570cd936589c07a5e5fd07283/metrics-2.svg)
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=saitenntaisei&theme=dracula)
+

@@ -40,5 +40,3 @@
 </div>
 
 ![metrics-2](./metrics-2.svg)
-
-![trophy](https://github-profile-trophy.vercel.app/?username=saitenntaisei&theme=dracula)

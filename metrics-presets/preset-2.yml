@@ -6,11 +6,11 @@ with:
   base: ""
   config_timezone: Asia/Tokyo
   config_display: large
-  config_order: languages, habits, achievements
+  config_order: habits, achievements
   # https://github.com/lowlighter/metrics/blob/master/source/plugins/habits/README.md
   plugin_habits: yes
   plugin_habits_days: 30
-  plugin_habits_charts: yes
+  # plugin_habits_charts: yes
   # https://github.com/lowlighter/metrics/blob/master/source/plugins/achievements/README.md
   plugin_achievements: yes
   plugin_achievements_display: detailed

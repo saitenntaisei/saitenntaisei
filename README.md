@@ -23,14 +23,8 @@
 ![metrics-1](./metrics-1.svg)
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats-tau-umber-57.vercel.app/api?username=saitenntaisei&show_icons=true&theme=radical&rank_icon=percentil&count_private=true" />
+  <img height=200 align="center" src="https://github-readme-stats-tau-umber-57.vercel.app/api?username=saitenntaisei&show_icons=true&theme=radical&rank_icon=percentile&count_private=true" />
 </a>
-<!-- <a href="https://github.com/anuraghazra/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats-tau-umber-57.vercel.app/api/top-langs?username=saitenntaisei&layout=compact&langs_count=8&card_width=320&theme=radical" />
-</a> -->
-
-<!-- ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=saitenntaisei&theme=dracula)
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=saitenntaisei&theme=dracula) -->
 
 ![](./profile-summary-card-output/dracula/0-profile-details.svg)
 

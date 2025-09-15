@@ -25,7 +25,7 @@ jobs:
           filename: metrics-1.svg
           config_presets: https://raw.githubusercontent.com/saitenntaisei/saitenntaisei/main/metrics-presets/preset-1.yml
       - name: "metrics 2"
-        uses: lowlighter/metrics@latest
+        uses: stalomeow/metrics@projects-v2
         with:
           debug: yes
           token: ${{ secrets.METRICS_TOKEN }}

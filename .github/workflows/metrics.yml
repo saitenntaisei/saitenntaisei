@@ -27,7 +27,6 @@ jobs:
       - name: "metrics 2"
         uses: stalomeow/metrics@projects-v2
         with:
-          debug: yes
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: gist
           filename: metrics-2.svg

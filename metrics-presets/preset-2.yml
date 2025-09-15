@@ -14,3 +14,4 @@ with:
   # https://github.com/lowlighter/metrics/blob/master/source/plugins/achievements/README.md
   plugin_achievements: yes
   plugin_achievements_display: detailed
+  plugin_achievements_threshold: A

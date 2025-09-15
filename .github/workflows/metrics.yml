@@ -27,6 +27,7 @@ jobs:
       - name: "metrics 2"
         uses: lowlighter/metrics@latest
         with:
+          debug: yes
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: gist
           filename: metrics-2.svg

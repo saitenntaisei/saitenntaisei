@@ -27,7 +27,7 @@
 
 <div style="display: flex; justify-content: space-around;">
   <img src="./profile-summary-card-output/dracula/4-productive-time.svg" alt="Productive Time">
-  <img src="./profile-summary-card-output/dracula/2-most-commit-language.svg" alt="Most Commit Language">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=saitenntaisei&theme=dracula" alt="Most Commit Language">
 </div>
 
 ![metrics-2](./metrics-2.svg)

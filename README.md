@@ -18,6 +18,8 @@
 </p>
 
 ![metrics-1](./metrics-1.svg)
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=saitenntaisei&theme=transparent&date_format=%5BY.%5Dn.j" alt="GitHub Streak" /></a>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saitenntaisei/saitenntaisei/output/github-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/saitenntaisei/saitenntaisei/outputgithub-snake.svg">
@@ -26,7 +28,10 @@
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats-tau-umber-57.vercel.app/api?username=saitenntaisei&show_icons=true&theme=radical&rank_icon=percentile&count_private=true" />
+  
 </a>
+
+
 
 ![](./profile-summary-card-output/dracula/0-profile-details.svg)
 

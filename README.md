@@ -19,7 +19,7 @@
 
 ![metrics-1](./metrics-1.svg)
 
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=saitenntaisei&theme=transparent&date_format=%5BY.%5Dn.j" alt="GitHub Streak" /></a>
+
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saitenntaisei/saitenntaisei/output/github-snake-dark.svg">

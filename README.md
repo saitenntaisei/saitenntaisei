@@ -2,8 +2,8 @@
   <a href="https://github.com/saitenntaisei/saitenntaisei/">
     <img src="https://komarev.com/ghpvc/?username=saitenntaisei" alt="saitenntaisei" />
   </a>
-  <a href="http://twitter.com/sort_reverse">
-    <img height="20" src="https://img.shields.io/twitter/follow/sort_reverse?label=Twitter&logo=X&style=social" />
+  <a href="http://twitter.com/saitenntaisei">
+    <img height="20" src="https://img.shields.io/twitter/follow/saitenntaisei?label=Twitter&logo=X&style=social" />
   </a>
   <a href="https://github.com/saitenntaisei">
     <img height="20" src="https://img.shields.io/github/followers/saitenntaisei?label=follow&logo=github&style=flat" />
@@ -12,8 +12,8 @@
   <a href="https://stackoverflow.com/users/10370282/ranger">
     <img height="20" src="https://img.shields.io/stackexchange/stackoverflow/r/10370282?label=StackOverflow&logo=stack-overflow&style=flat" />
   </a>
-  <a href="http://qiita.com/saitenn">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/saitenn/posts.svg" />
+  <a href="http://qiita.com/saitenntaisei">
+    <img height="20" src="https://qiita-badge.apiapi.app/s/saitenntaisei/posts.svg" />
   </a>
 </p>
 

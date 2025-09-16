@@ -18,6 +18,11 @@
 </p>
 
 ![metrics-1](./metrics-1.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saitenntaisei/saitenntaisei/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/saitenntaisei/saitenntaisei/outputgithub-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/saitenntaisei/saitenntaisei/output/github-snake-dark.svg">
+</picture>
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats-tau-umber-57.vercel.app/api?username=saitenntaisei&show_icons=true&theme=radical&rank_icon=percentile&count_private=true" />

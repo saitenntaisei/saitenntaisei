@@ -6,7 +6,4 @@ with:
   base: header
   config_timezone: Asia/Tokyo
   config_display: large
-  config_order: base.header, isocalendar
-  # https://github.com/lowlighter/metrics/blob/master/source/plugins/isocalendar/README.md
-  plugin_isocalendar: yes
-  plugin_isocalendar_duration: half-year
+  config_order: base.header

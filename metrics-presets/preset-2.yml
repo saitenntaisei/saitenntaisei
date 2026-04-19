@@ -6,7 +6,7 @@ with:
   base: ""
   config_timezone: Asia/Tokyo
   config_display: large
-  config_order: isocalendar, languages, activity, achievements
+  config_order: isocalendar, languages, achievements
   # plugin_habits is disabled: GitHub stopped returning `payload.commits`
   # on `/users/{login}/events` PushEvents, so the plugin crashes at
   # habits/index.mjs:51. Re-enable once upstream switches data source.
@@ -29,15 +29,16 @@ with:
   plugin_languages_sections: most-used
   plugin_languages_details: lines, bytes-size
   plugin_languages_limit: 8
+  # plugin_activity is disabled: same payload.commits bug hits this
+  # plugin's PushEvent case at activity/index.mjs:140. plugin_activity_filter
+  # only drops events from the FINAL rendered list -- the switch(type)
+  # dispatch still runs PushEvent handling and crashes before the filter
+  # applies. Re-enable once upstream guards commits.filter().
   # https://github.com/lowlighter/metrics/blob/master/source/plugins/activity/README.md
-  # `push` is excluded from the filter: the activity plugin also
-  # destructures payload.commits on PushEvents and would crash for the
-  # same reason as habits. Remove `push` from this list if upstream
-  # guards against missing commits.
-  plugin_activity: yes
-  plugin_activity_limit: 5
-  plugin_activity_days: 14
-  plugin_activity_filter: issue, pr, release, fork, review, ref/create, ref/delete, comment, wiki, star, member, public
+  # plugin_activity: yes
+  # plugin_activity_limit: 5
+  # plugin_activity_days: 14
+  # plugin_activity_filter: issue, pr, release, fork, review, ref/create, ref/delete, comment, wiki, star, member, public
   # https://github.com/lowlighter/metrics/blob/master/source/plugins/achievements/README.md
   plugin_achievements: yes
   plugin_achievements_display: detailed

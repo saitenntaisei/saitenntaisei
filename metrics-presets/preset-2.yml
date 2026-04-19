@@ -21,9 +21,12 @@ with:
   # commit-level line counts. This adds several minutes to the workflow
   # but gives accurate "lines added/removed per language" data that the
   # GraphQL-only mode cannot derive.
+  # `recently-used` is NOT enabled: its RecentAnalyzer fetches commits
+  # URLs derived from PushEvent payloads, hitting the same undefined
+  # commits bug that crashes habits. Re-enable once upstream guards it.
   plugin_languages: yes
   plugin_languages_indepth: yes
-  plugin_languages_sections: most-used, recently-used
+  plugin_languages_sections: most-used
   plugin_languages_details: lines, bytes-size
   plugin_languages_limit: 8
   # https://github.com/lowlighter/metrics/blob/master/source/plugins/activity/README.md

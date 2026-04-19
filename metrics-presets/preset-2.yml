@@ -6,39 +6,15 @@ with:
   base: ""
   config_timezone: Asia/Tokyo
   config_display: large
-  config_order: isocalendar, languages, achievements
-  # plugin_habits is disabled: GitHub stopped returning `payload.commits`
-  # on `/users/{login}/events` PushEvents, so the plugin crashes at
-  # habits/index.mjs:51. Re-enable once upstream switches data source.
+  config_order: achievements
+  # plugin_habits is disabled: upstream lowlighter/metrics habits plugin
+  # relies on `payload.commits` from the `/users/{login}/events` API, which
+  # GitHub no longer returns. The plugin crashes with "Cannot destructure
+  # property 'author' of undefined" at habits/index.mjs:51. Re-enable once
+  # lowlighter/metrics ships a new data source for this plugin.
   # https://github.com/lowlighter/metrics/blob/master/source/plugins/habits/README.md
   # plugin_habits: yes
   # plugin_habits_days: 30
-  # https://github.com/lowlighter/metrics/blob/master/source/plugins/isocalendar/README.md
-  plugin_isocalendar: yes
-  plugin_isocalendar_duration: full-year
-  # https://github.com/lowlighter/metrics/blob/master/source/plugins/languages/README.md
-  # indepth mode clones every non-skipped repo on the runner to analyze
-  # commit-level line counts. This adds several minutes to the workflow
-  # but gives accurate "lines added/removed per language" data that the
-  # GraphQL-only mode cannot derive.
-  # `recently-used` is NOT enabled: its RecentAnalyzer fetches commits
-  # URLs derived from PushEvent payloads, hitting the same undefined
-  # commits bug that crashes habits. Re-enable once upstream guards it.
-  plugin_languages: yes
-  plugin_languages_indepth: yes
-  plugin_languages_sections: most-used
-  plugin_languages_details: lines, bytes-size
-  plugin_languages_limit: 8
-  # plugin_activity is disabled: same payload.commits bug hits this
-  # plugin's PushEvent case at activity/index.mjs:140. plugin_activity_filter
-  # only drops events from the FINAL rendered list -- the switch(type)
-  # dispatch still runs PushEvent handling and crashes before the filter
-  # applies. Re-enable once upstream guards commits.filter().
-  # https://github.com/lowlighter/metrics/blob/master/source/plugins/activity/README.md
-  # plugin_activity: yes
-  # plugin_activity_limit: 5
-  # plugin_activity_days: 14
-  # plugin_activity_filter: issue, pr, release, fork, review, ref/create, ref/delete, comment, wiki, star, member, public
   # https://github.com/lowlighter/metrics/blob/master/source/plugins/achievements/README.md
   plugin_achievements: yes
   plugin_achievements_display: detailed

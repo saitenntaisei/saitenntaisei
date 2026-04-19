@@ -6,11 +6,15 @@ with:
   base: ""
   config_timezone: Asia/Tokyo
   config_display: large
-  config_order: habits, achievements
+  config_order: achievements
+  # plugin_habits is disabled: upstream lowlighter/metrics habits plugin
+  # relies on `payload.commits` from the `/users/{login}/events` API, which
+  # GitHub no longer returns. The plugin crashes with "Cannot destructure
+  # property 'author' of undefined" at habits/index.mjs:51. Re-enable once
+  # lowlighter/metrics ships a new data source for this plugin.
   # https://github.com/lowlighter/metrics/blob/master/source/plugins/habits/README.md
-  plugin_habits: yes
-  plugin_habits_days: 30
-  # plugin_habits_charts: yes
+  # plugin_habits: yes
+  # plugin_habits_days: 30
   # https://github.com/lowlighter/metrics/blob/master/source/plugins/achievements/README.md
   plugin_achievements: yes
   plugin_achievements_display: detailed
